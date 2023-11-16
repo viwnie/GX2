@@ -1,5 +1,7 @@
 # Tarefas GX2 🚀
-![Imagem Logo GX2](https://media.licdn.com/dms/image/C4D0BAQHm4J21_8rIGw/company-logo_200_200/0/1672233312751/gx2tecnologia_logo?e=1707955200&v=beta&t=I3SsNnMma1SnlQuPiunkoeTAeYCD7mqDVK6KlwuYLnc)
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/C4D0BAQHm4J21_8rIGw/company-logo_200_200/0/1672233312751/gx2tecnologia_logo?e=1707955200&v=beta&t=I3SsNnMma1SnlQuPiunkoeTAeYCD7mqDVK6KlwuYLnc" alt="Imagem Logo GX2">
+</p>
 
 Bem-vindo ao meu repositório de tarefas da GX2!👨‍💻
 
