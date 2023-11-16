@@ -1,0 +1,19 @@
+<div class="fragment_101">
+	[#list 1..configuration.numbersCards as index]
+<div id="Card${index}" class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">
+		     <lfr-editable id="Title${index}" type="text">Titulo</lfr-editable>
+		</h5>
+    <h6 class="card-subtitle mb-2 text-muted">
+		     <lfr-editable id="SubTitle${index}" type="text">SubTitulo</lfr-editable>
+		</h6>
+    <p class="card-text">
+         <lfr-editable id="Paragraph${index}" type="text">Paragrafo</lfr-editable>
+		</p>
+		<lfr-editable id="FirstLink${index}" type="link"> <a href="#" class="card-link">Link </a> </lfr-editable>
+		<lfr-editable id="SecondLink${index}" type="link"> <a href="#" class="card-link">Outro Link </a> </lfr-editable>
+  </div>
+</div>
+	[/#list]
+</div>
