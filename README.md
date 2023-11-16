@@ -12,12 +12,14 @@ Este repositorio esta divido em duas seçoes
 
 - **FrontEnd:**
   - *Tarefa*
+
       - Descrição da tarefa
       - Código fonte
       - Documentação
   
 - **Backend:**
   - *Tarefa*
+
       - Descrição da tarefa
       - Código fonte
       - Documentação
