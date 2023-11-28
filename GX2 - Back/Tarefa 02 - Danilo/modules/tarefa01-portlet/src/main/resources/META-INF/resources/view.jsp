@@ -1,11 +1,10 @@
 <%@ include file="/init.jsp" %>
 
-<p>
-    <b><liferay-ui:message key="tarefa01.caption"/></b>
-</p>
-
+<h1>Lista de usuarios:</h1>
 <ul>
     <c:forEach var="user" items="${userList}">
-        <li>${user.fullName}</li>
+        <li>Nome completo : ${user.fullName}</li>
+        <li>Email : ${user.emailAddress}</li>
+        <br>
     </c:forEach>
 </ul>
