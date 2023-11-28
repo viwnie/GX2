@@ -1,0 +1,4 @@
+Bundle-Name: api
+Bundle-SymbolicName: br.com.tarefa.api
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration

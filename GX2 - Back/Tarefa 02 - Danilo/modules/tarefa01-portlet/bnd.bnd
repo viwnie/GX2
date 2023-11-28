@@ -1,0 +1,4 @@
+Bundle-Name: tarefa01-portlet
+Bundle-SymbolicName: br.com.tarefa01
+Bundle-Version: 1.0.0
+Export-Package: br.com.tarefa01.constants
