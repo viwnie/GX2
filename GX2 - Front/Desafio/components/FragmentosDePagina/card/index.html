@@ -1,11 +1,15 @@
-<div class="row no-gutters">
+<div class="row no-gutters w-100">
     [#list 1..configuration.numbersCards as index]
     <div id="card${index}" class="card col-md-6 col-lg-4 mb-5 mx-auto">
         <div class="card-body">
-            <h5 data-lfr-editable-id="tituloCard${index}" data-lfr-editable-type="rich-text"  class="card-title">Titulo</h5>
-            <h6 data-lfr-editable-id="subtituloCard${index}" data-lfr-editable-type="rich-text" class="card-subtitle mb-2 text-muted">SubTitulo</h6>
-            <p data-lfr-editable-id="paragrafoCard${index}" data-lfr-editable-type="rich-text" class="card-text">Paragrafo</p>
-            <a data-lfr-editable-id="linkCard${index}" data-lfr-editable-type="link" href="#" class="btn btn-${configuration.buttonColor.cssClass} text-${configuration.buttonTextColor.cssClass}">Botão</a>
+            <h5 data-lfr-editable-id="tituloCard${index}" data-lfr-editable-type="rich-text" class="card-title">Titulo
+            </h5>
+            <h6 data-lfr-editable-id="subtituloCard${index}" data-lfr-editable-type="rich-text"
+                class="card-subtitle mb-2 text-muted">SubTitulo</h6>
+            <p data-lfr-editable-id="paragrafoCard${index}" data-lfr-editable-type="rich-text" class="card-text">
+                Paragrafo</p>
+            <a data-lfr-editable-id="linkCard${index}" data-lfr-editable-type="link" href="#"
+                class="btn btn-${configuration.buttonColor.cssClass} text-${configuration.buttonTextColor.cssClass}">Botão</a>
         </div>
     </div>
     [/#list]

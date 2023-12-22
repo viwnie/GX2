@@ -1,6 +1,7 @@
 .fragment_101 {
 	height:500px;
 	img{
+	object-fit:cover;
 	height:500px;
 	}
 	.filtroDoBanner{

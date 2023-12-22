@@ -12,7 +12,7 @@
             "key" : "BASIC_COMPONENT-heading"
           },
           "fragmentConfig" : {
-            "headingLevel" : "h2"
+            "headingLevel" : "h4"
           },
           "fragmentFields" : [ {
             "id" : "element-text",
@@ -126,11 +126,12 @@
       }, {
         "definition" : {
           "fragment" : {
-            "key" : "BASIC_COMPONENT-paragraph"
+            "key" : "modelo-para-pagina-automatica",
+            "siteKey" : "Guest"
           },
           "fragmentConfig" : { },
           "fragmentFields" : [ {
-            "id" : "element-text",
+            "id" : "autoCategoria",
             "value" : {
               "fragmentLink" : { },
               "text" : {
@@ -143,9 +144,6 @@
               }
             }
           } ],
-          "fragmentStyle" : {
-            "maxWidth" : "600px"
-          },
           "indexed" : true
         },
         "type" : "Fragment"

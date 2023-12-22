@@ -22,12 +22,26 @@
                         "rgbValue": "rgb(255,255,255)"
                     }
                 },
-                {
-                    "name": "headingColor",
-                    "label": "Heading Color",
-                    "description": "heading-color",
-                    "type": "colorPicker",
-                    "defaultValue": "rgba(0,0, 0, 0.8)"
+							 {
+                    "name": "overlayColor",
+                    "label": "Cor da Película Overlay",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                    "cssClass": "black",
+										"rgbValue": "rgb(255,255,255)"
+                    }
+                },
+							{
+                    "name": "opacity",
+                    "label": "Opacidade",
+                    "description": "Controle a opaciade da imagem do seu banner",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "Controlador de opacidade (0 - 100)"
+                    },
+                    "dataType": "int",
+                    "defaultValue": "20"
                 }
             ]
         }

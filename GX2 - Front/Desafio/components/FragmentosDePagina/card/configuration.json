@@ -11,7 +11,7 @@
                         "placeholder": "Digite um numero de cards"
                     },
                     "dataType": "int",
-                    "defaultValue": "3"
+                    "defaultValue": "4"
                 },
                 {
                     "name": "buttonColor",
