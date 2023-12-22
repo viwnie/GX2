@@ -1,0 +1,13 @@
+<#if Noticia.getSiblings()?has_content>
+	<#list Noticia.getSiblings() as cur_Noticia>
+        <#if (cur_Noticia.TituloNoticia.getData())??>
+            ${cur_Noticia.TituloNoticia.getData()}
+        </#if>
+        <#if (cur_Noticia.ImagemNoticia.getData())?? && cur_Noticia.ImagemNoticia.getData() != "">
+            <img alt="${cur_Noticia.ImagemNoticia.getAttribute("alt")}" data-fileentryid="${cur_Noticia.ImagemNoticia.getAttribute("fileEntryId")}" src="${cur_Noticia.ImagemNoticia.getData()}" />
+        </#if>
+        <#if (cur_Noticia.RichText85975945.getData())??>
+            ${cur_Noticia.RichText85975945.getData()}
+        </#if>
+	</#list>
+</#if>

@@ -1,0 +1,77 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* inject:imports */
+
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';
+
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --blue-20: #007bff20;
+    --indigo-20: #6610f220;
+    --purple-20: #6f42c120;
+    --pink-20: #e83e8c20;
+    --red-20: #dc354520;
+    --orange-20: #fd7e1420;
+    --yellow-20: #ffc10720;
+    --green-20: #28a74520;
+    --teal-20: #20c99720;
+    --cyan-20: #17a2b820;
+    --white-20: #ffffff20;
+    --gray-20: #6c757d20;
+    --gray-dark-20: #343a4020;
+    --primary-20: #007bff20;
+    --secondary-20: #6c757d20;
+    --success-20: #28a74520;
+    --info-20: #17a2b820;
+    --warning-20: #ffc10720;
+    --danger-20: #dc354520;
+    --light-20: #f8f9fa20;
+    --dark-20: #343a4020;
+}
+
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */

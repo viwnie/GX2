@@ -1,0 +1,12 @@
+.fragment_101 {
+	height:500px;
+	img{
+	height:500px;
+	}
+	.filtroDoBanner{
+	height:501px;
+	}
+	.conteudoDoBanner{
+	z-index:2;
+	}
+}

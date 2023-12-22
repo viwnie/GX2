@@ -1,0 +1,162 @@
+{
+  "pageElement" : {
+    "pageElements" : [ {
+      "definition" : {
+        "cssClasses" : [ "d-flex", "flex-column", "align-items-center" ],
+        "indexed" : true,
+        "layout" : { }
+      },
+      "pageElements" : [ {
+        "definition" : {
+          "fragment" : {
+            "key" : "BASIC_COMPONENT-heading"
+          },
+          "fragmentConfig" : {
+            "headingLevel" : "h2"
+          },
+          "fragmentFields" : [ {
+            "id" : "element-text",
+            "value" : {
+              "fragmentLink" : { },
+              "text" : {
+                "mapping" : {
+                  "fieldKey" : "JournalArticle_title",
+                  "itemReference" : {
+                    "contextSource" : "DisplayPageItem"
+                  }
+                }
+              }
+            }
+          } ],
+          "fragmentStyle" : {
+            "maxWidth" : "600px",
+            "textAlign" : "center",
+            "textColor" : "rgb(52, 58, 64)"
+          },
+          "indexed" : true
+        },
+        "type" : "Fragment"
+      }, {
+        "definition" : {
+          "fragment" : {
+            "key" : "BASIC_COMPONENT-separator"
+          },
+          "fragmentConfig" : {
+            "separatorColor" : "",
+            "bottomSpacing" : "3"
+          },
+          "fragmentFields" : [ ],
+          "indexed" : true
+        },
+        "type" : "Fragment"
+      }, {
+        "definition" : {
+          "cssClasses" : [ "img-fluid" ],
+          "fragment" : {
+            "key" : "BASIC_COMPONENT-image"
+          },
+          "fragmentConfig" : {
+            "imageSize" : "w-100"
+          },
+          "fragmentFields" : [ {
+            "id" : "image-square",
+            "value" : {
+              "fragmentImage" : {
+                "url" : {
+                  "mapping" : {
+                    "fieldKey" : "DDMStructure_Image70661526",
+                    "itemReference" : {
+                      "contextSource" : "DisplayPageItem"
+                    }
+                  }
+                }
+              },
+              "fragmentLink" : { }
+            }
+          } ],
+          "fragmentStyle" : {
+            "height" : "300px",
+            "overflow" : "hidden",
+            "textAlign" : "center",
+            "width" : "600px"
+          },
+          "indexed" : true
+        },
+        "type" : "Fragment"
+      }, {
+        "definition" : {
+          "fragment" : {
+            "key" : "BASIC_COMPONENT-separator"
+          },
+          "fragmentConfig" : {
+            "separatorColor" : "",
+            "bottomSpacing" : "3"
+          },
+          "fragmentFields" : [ ],
+          "indexed" : true
+        },
+        "type" : "Fragment"
+      }, {
+        "definition" : {
+          "fragment" : {
+            "key" : "BASIC_COMPONENT-paragraph"
+          },
+          "fragmentConfig" : { },
+          "fragmentFields" : [ {
+            "id" : "element-text",
+            "value" : {
+              "fragmentLink" : { },
+              "text" : {
+                "mapping" : {
+                  "fieldKey" : "DDMStructure_RichText85975945",
+                  "itemReference" : {
+                    "contextSource" : "DisplayPageItem"
+                  }
+                }
+              }
+            }
+          } ],
+          "fragmentStyle" : {
+            "maxWidth" : "600px",
+            "overflow" : "visible"
+          },
+          "indexed" : true
+        },
+        "type" : "Fragment"
+      }, {
+        "definition" : {
+          "fragment" : {
+            "key" : "BASIC_COMPONENT-paragraph"
+          },
+          "fragmentConfig" : { },
+          "fragmentFields" : [ {
+            "id" : "element-text",
+            "value" : {
+              "fragmentLink" : { },
+              "text" : {
+                "mapping" : {
+                  "fieldKey" : "AssetCategory_categories",
+                  "itemReference" : {
+                    "contextSource" : "DisplayPageItem"
+                  }
+                }
+              }
+            }
+          } ],
+          "fragmentStyle" : {
+            "maxWidth" : "600px"
+          },
+          "indexed" : true
+        },
+        "type" : "Fragment"
+      } ],
+      "type" : "Section"
+    } ],
+    "type" : "Root"
+  },
+  "settings" : {
+    "colorSchemeName" : "01",
+    "themeName" : "Desafio Final"
+  },
+  "version" : 1.1
+}
